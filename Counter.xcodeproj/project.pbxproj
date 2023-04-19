@@ -13,6 +13,7 @@
 		245ED82029F034180046EB6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245ED81E29F034180046EB6C /* Main.storyboard */; };
 		245ED82229F034190046EB6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245ED82129F034190046EB6C /* Assets.xcassets */; };
 		245ED82529F034190046EB6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245ED82329F034190046EB6C /* LaunchScreen.storyboard */; };
+		245ED82D29F05CBC0046EB6C /* TextView+Scrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245ED82C29F05CBC0046EB6C /* TextView+Scrolling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		245ED82129F034190046EB6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		245ED82429F034190046EB6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		245ED82629F034190046EB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245ED82C29F05CBC0046EB6C /* TextView+Scrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextView+Scrolling.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				245ED81829F034180046EB6C /* AppDelegate.swift */,
 				245ED81A29F034180046EB6C /* SceneDelegate.swift */,
 				245ED81C29F034180046EB6C /* ViewController.swift */,
+				245ED82C29F05CBC0046EB6C /* TextView+Scrolling.swift */,
 				245ED81E29F034180046EB6C /* Main.storyboard */,
 				245ED82129F034190046EB6C /* Assets.xcassets */,
 				245ED82329F034190046EB6C /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				245ED81D29F034180046EB6C /* ViewController.swift in Sources */,
 				245ED81929F034180046EB6C /* AppDelegate.swift in Sources */,
 				245ED81B29F034180046EB6C /* SceneDelegate.swift in Sources */,
+				245ED82D29F05CBC0046EB6C /* TextView+Scrolling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
