@@ -8,40 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var counterLabel: UILabel!
-    @IBOutlet weak var textView: UITextView!
-
+    
+    @IBOutlet private weak var counterLabel: UILabel!
+    @IBOutlet private weak var textView: UITextView!
+   
+    private var counter: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         textView.text = "История изменений:"
-        counterLabel.text = "0"
+        counterLabel.setIntText(counter)
     }
     
-    
-    @IBAction func additionButton(_ sender: Any) {
-        guard let counterText = counterLabel.text else { return }
-        let newCounter = (Int(counterText) ?? 0) + 1
-        counterLabel.text = String(newCounter)
-        addTextView(text: "значение изменено на +1")
-    }
-    
-    @IBAction func reduceButton(_ sender: Any) {
-        if counterLabel.text != "0" {
-            guard let counterText = counterLabel.text else { return }
-            let newCounter = (Int(counterText) ?? 0) - 1
-            counterLabel.text = String(newCounter)
-            addTextView(text: "значение изменено на -1")
-        } else {
-            addTextView(text: "попытка уменьшить значение счётчика ниже 0")
-        }
-       
-    }
-
-    @IBAction func resetButton(_ sender: Any) {
-        counterLabel.text = "0"
-        addTextView(text: "значение cброшено")
-    }
     
     //MARK: - Private functions
     private func getNowDateString() -> String {
@@ -55,5 +33,29 @@ class ViewController: UIViewController {
         textView.text += "\n\(getNowDateString()): \(string)"
         textView.scrollToDown()
     }
+    
+    
+    //MARK: - IBActions
+    @IBAction private func additionButtonTapped(_ sender: Any) {
+        counter += 1
+        counterLabel.setIntText(counter)
+        addTextView(text: "значение изменено на +1")
+    }
+    
+    @IBAction private func reduceButtonTapped(_ sender: Any) {
+        if counter != 0 {
+            counter -= 1
+            counterLabel.setIntText(counter)
+            addTextView(text: "значение изменено на -1")
+        } else {
+            addTextView(text: "попытка уменьшить значение счётчика ниже 0")
+        }
+        
+    }
+    
+    @IBAction private func resetButtonTapped(_ sender: Any) {
+        counter = 0
+        counterLabel.setIntText(counter)
+        addTextView(text: "значение cброшено")
+    }
 }
-

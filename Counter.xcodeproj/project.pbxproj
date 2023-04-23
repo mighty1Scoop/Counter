@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		245C4C7229F581FC00A2189B /* UILabel+SetText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245C4C7129F581FC00A2189B /* UILabel+SetText.swift */; };
 		245ED81929F034180046EB6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245ED81829F034180046EB6C /* AppDelegate.swift */; };
 		245ED81B29F034180046EB6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245ED81A29F034180046EB6C /* SceneDelegate.swift */; };
 		245ED81D29F034180046EB6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245ED81C29F034180046EB6C /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		245C4C7129F581FC00A2189B /* UILabel+SetText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+SetText.swift"; sourceTree = "<group>"; };
 		245ED81529F034180046EB6C /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		245ED81829F034180046EB6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		245ED81A29F034180046EB6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				245ED81A29F034180046EB6C /* SceneDelegate.swift */,
 				245ED81C29F034180046EB6C /* ViewController.swift */,
 				245ED82C29F05CBC0046EB6C /* TextView+Scrolling.swift */,
+				245C4C7129F581FC00A2189B /* UILabel+SetText.swift */,
 				245ED81E29F034180046EB6C /* Main.storyboard */,
 				245ED82129F034190046EB6C /* Assets.xcassets */,
 				245ED82329F034190046EB6C /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				245ED81929F034180046EB6C /* AppDelegate.swift in Sources */,
 				245ED81B29F034180046EB6C /* SceneDelegate.swift in Sources */,
 				245ED82D29F05CBC0046EB6C /* TextView+Scrolling.swift in Sources */,
+				245C4C7229F581FC00A2189B /* UILabel+SetText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

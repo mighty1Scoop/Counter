@@ -31,7 +31,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="-"/>
                                 <connections>
-                                    <action selector="reduceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xLa-qV-eVn"/>
+                                    <action selector="reduceButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x5C-s3-ahS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGt-cr-o8I">
@@ -45,7 +45,7 @@
                                     <color key="baseBackgroundColor" systemColor="systemRedColor"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="additionButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yAL-61-iRX"/>
+                                    <action selector="additionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ya0-qY-7YI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTJ-yE-5VW">
@@ -53,7 +53,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrow.clockwise" catalog="system"/>
                                 <connections>
-                                    <action selector="resetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ITH-Qc-fgb"/>
+                                    <action selector="resetButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lxp-M4-uoS"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yK-eL-Jua">
